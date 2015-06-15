@@ -1,0 +1,188 @@
+﻿/* Name: Pavittar Singh
+   Student No: 200238210
+   Version: SlotMachine Version AL-1.0#5
+   Type: CSS 
+   Purpose: Design the WEBPAGE */
+   
+/* Player status */   
+
+ul#playerStats {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+	
+}
+/* Using for fix the positon of the three of buttons. */
+#buttons
+{
+	margin-bottom: -875px;
+	margin-top: -277px;
+	margin-left: 291px;
+	
+}
+/*  Selected spin button with appropriate postion with color and border */
+#spinButton
+{   
+
+	margin-top: 180px;
+	margin-right: 80px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+	padding: 20px;
+	margin-bottom: 30px;
+	 background-color: #33FF00;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+     border: 5px solid #009900;
+	 font-style:oblique;
+}
+/*  Selected reset button with appropriate postion with color and border */
+#resetButton
+{
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	 background-color: #33FF00;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #009900;
+   font-style:oblique;
+}
+/*  Selected PowerButton button with appropriate postion with color and border */
+#powerButton
+{
+	margin:80px;
+	padding:20px; 
+	background-color: #33FF00;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #009900;
+   font-style:oblique;
+}
+
+/*  Set the appropriate postion of reel pictures */
+	
+.inner {
+	margin-left: 216Px;
+	margin-bottom: 20px;
+	margin-top: 500px;
+}
+.inner > img {
+	margin-right:50px;
+	width: 88px;
+	}
+/*  Set the postion of interface picture */
+#interface
+{
+	margin-left: 280px;
+	margin-top: -40px;	
+
+}
+/* Set the result of player */
+#result
+{
+	margin-bottom: 180px;
+	margin-left: 180px;
+	margin-top: 180px;
+	margin-right: 180px;
+    
+}
+/* Win or Lose status */
+#winOrLose
+{
+	margin-top: -95px;
+	margin-left:520px;
+	text-align:inherit;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	color:#FF0;
+    	
+}
+/* Bet Entry Input box */
+
+#betEntry
+{
+	padding-left: 0px;
+	position: absolute;
+	margin-left: 380px;
+	margin-top: 115px;
+	width-left: 20px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	color:#FF0;
+	}
+	
+/* Jackpot position */	
+#jackpot
+{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 355px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	color:#FF0;
+	
+/* Player Money */	
+}
+#playerMoney
+{
+	margin-top: 355px;
+	margin-left: 675px;
+	position: absolute;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	color:#FF0;
+}
+
+/* Postion for Player Turn */
+#playerTurn{
+	position: absolute;
+	margin-left: 863px;
+	margin-top: 220px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	color:#FF0;
+	}
+	
+/*  Player Wins */	
+#playerWins{
+	position: absolute;
+	margin-left: 865px;
+	margin-top: 250px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	color:#FF0;
+}
+
+/* Player Loss */
+#playerLosses{
+	position: absolute;
+	margin-left: 865px;
+	margin-top: 280px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-style:italic;
+	color:#FF0;
+}
+
+/* Win Ratio */
+#playerWinRatio{
+	position: absolute;
+	margin-left: 860Px;
+	color:#FF0;
+	margin-top: 318px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+	font-size:16px;
+	font-style:italic;
+}
+
+
+
